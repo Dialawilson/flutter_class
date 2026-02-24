@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_class/class/class%206/main.dart';
 import 'package:flutter_class/class/class_2_list.dart';
 import 'package:flutter_class/class/class_3_grid_widget.dart';
 import 'package:flutter_class/class/class_4_asset.dart';
@@ -12,7 +13,7 @@ void main(){
         appBar: AppBar(
           title: const Text('My First App'),
         ),
-        body: MyFont()
+        body: MyApp()
       ),
     )
   );
