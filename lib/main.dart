@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_class/class/class_2_list.dart';
 import 'package:flutter_class/class/class_3_grid_widget.dart';
 import 'package:flutter_class/class/class_4_asset.dart';
+import 'package:flutter_class/class/class_5_fonts.dart';
 import 'package:flutter_class/stateful_widget.dart'; //material package from flutter
 
 void main(){
@@ -11,7 +12,7 @@ void main(){
         appBar: AppBar(
           title: const Text('My First App'),
         ),
-        body: MyAsset()
+        body: MyFont()
       ),
     )
   );
