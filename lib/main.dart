@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_class/class/class%206/main.dart';
-import 'package:flutter_class/class/class_2_list.dart';
-import 'package:flutter_class/class/class_3_grid_widget.dart';
-import 'package:flutter_class/class/class_4_asset.dart';
-import 'package:flutter_class/class/class_5_fonts.dart';
-import 'package:flutter_class/stateful_widget.dart'; //material package from flutter
+import 'package:flutter_class/class/class_7_json_online/mainQuote.dart';
 
 void main(){
   runApp(
@@ -13,7 +8,7 @@ void main(){
         appBar: AppBar(
           title: const Text('My First App'),
         ),
-        body: MyApp()
+        body: MyMainQuote()
       ),
     )
   );
