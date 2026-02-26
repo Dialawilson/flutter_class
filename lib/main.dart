@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_class/class/class_7_json_online/mainQuote.dart';
+import 'package:flutter_class/class/class_10_navigationbar.dart';
+// import 'package:flutter_class/class/class_7_json_online/mainQuote.dart';
 
 void main(){
   runApp(
@@ -8,7 +9,7 @@ void main(){
         appBar: AppBar(
           title: const Text('My First App'),
         ),
-        body: MyMainQuote()
+        body: MyHomePage()
       ),
     )
   );
