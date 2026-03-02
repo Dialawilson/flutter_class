@@ -24,8 +24,6 @@ class MyButton extends StatelessWidget {
             IconButton(onPressed: (){}, icon: Icon(Icons.home), tooltip: 'more place',),
             OutlinedButton(onPressed: (){}, child: Text('outline btn')),
             TextButton(onPressed: (){}, child: Text('Text Btn')),
-            DropdownButton(items: items, onChanged: onChanged),
-            PopupMenuButton(itemBuilder: itemBuilder)
 
 
 
