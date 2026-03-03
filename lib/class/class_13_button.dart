@@ -19,7 +19,9 @@ class MyButton extends StatelessWidget {
              )
              ),
             //Elevated btn
-            ElevatedButton(onPressed: (){}, child: Text('Elevated button')),
+            ElevatedButton(
+              
+              onPressed: (){}, child: Text('Elevated button')),
             FloatingActionButton(onPressed: (){}, child: Icon(Icons.phone),),
             IconButton(onPressed: (){}, icon: Icon(Icons.home), tooltip: 'more place',),
             OutlinedButton(onPressed: (){}, child: Text('outline btn')),
