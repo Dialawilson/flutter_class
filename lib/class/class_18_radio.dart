@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 
 
 class MyRadio extends StatelessWidget {
+   const MyRadio({super.key});
+
   @override
 Widget build(BuildContext context) {
     return MaterialApp(
@@ -36,7 +38,8 @@ class _DifficultySelectionWidgetState extends State<DifficultySelectionWidget> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: Difficulty.values
           .map((option) => RadioListTile<Difficulty>(
                 title: Text(option.text),
