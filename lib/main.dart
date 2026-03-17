@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_class/class/class_18_radio.dart';
 // import 'package:flutter_class/class/class_7_json_online/mainQuote.dart';
+import 'package:flutter_class/navigation/buttomnav.dart';
 
 void main(){
   runApp(
@@ -9,7 +9,8 @@ void main(){
         appBar: AppBar(
           title: const Text('My First App'),
         ),
-        body: MyRadio()
+        body: Text('hello app'),
+        bottomNavigationBar: BottomNav(),
       ),
     )
   );
