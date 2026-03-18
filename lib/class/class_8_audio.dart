@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
 
 class MyAudio extends StatefulWidget{
+  const MyAudio({super.key});
+
   @override
   _MyAudioState createState() => _MyAudioState();
 

@@ -6,7 +6,7 @@ import '../class_7_json_online/myQuote.dart';
 
 
 class MyMainQuote extends StatelessWidget {
-  const MyMainQuote({Key? key}) ;
+  const MyMainQuote({super.key, Key? key}) ;
 
   @override
   Widget build(BuildContext context) {

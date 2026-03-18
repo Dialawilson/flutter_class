@@ -29,6 +29,8 @@ enum Difficulty {
 }
 
 class DifficultySelectionWidget extends StatefulWidget {
+  const DifficultySelectionWidget({super.key});
+
   @override
   _DifficultySelectionWidgetState createState() => _DifficultySelectionWidgetState();
 }

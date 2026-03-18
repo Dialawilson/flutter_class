@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyCourierTrackingApp());
 
 class MyCourierTrackingApp extends StatelessWidget {
+  const MyCourierTrackingApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

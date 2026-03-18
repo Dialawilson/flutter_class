@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class InterestCalScreen extends StatefulWidget {
+  const InterestCalScreen({super.key});
+
   @override
   _InterestCalScreen createState() => _InterestCalScreen();
 

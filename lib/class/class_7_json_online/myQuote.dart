@@ -4,7 +4,7 @@ import 'quote.dart';
 class QuoteWidget extends StatelessWidget {
   final Quote quote;
 
-  const QuoteWidget({Key? key, required this.quote}) : super(key: key);
+  const QuoteWidget({super.key, required this.quote});
 
   @override
   Widget build(BuildContext context) {

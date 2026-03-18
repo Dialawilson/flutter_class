@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 
 class MySwitch extends StatelessWidget {
+  const MySwitch({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,6 +18,8 @@ class MySwitch extends StatelessWidget {
 }
 
 class SettingsScreen extends StatefulWidget {
+  const SettingsScreen({super.key});
+
   @override
   _SettingsScreenState createState() => _SettingsScreenState();
 }
