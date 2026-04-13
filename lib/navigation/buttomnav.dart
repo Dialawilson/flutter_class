@@ -4,15 +4,14 @@ class BottomNav extends StatelessWidget{
   const BottomNav({super.key});
   @override
   Widget build(BuildContext context) {
-    return ClipRRect(
-      borderRadius: BorderRadius.only(
-        topLeft: Radius.circular(20),
-        topRight: Radius.circular(20),
-      ) 
-      ,
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(20),
+        border: Border(top: BorderSide(color: Colors.grey, width: 0.5)),
+      ),
       child: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
-        backgroundColor: Colors.blue,
+        // backgroundColor: Colors.blue,
         items:  [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
