@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_class/class/api/Api.dart';
+// import 'package:flutter_class/class/api/Api_fetch.dart';
+import 'package:flutter_class/class/api/Api_post.dart';
 // import 'package:flutter_class/class/class_7_json_online/mainQuote.dart';
 // import 'package:flutter_class/navigation/buttomnav.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('My First App'),
         ),
-        body: MyApi(),
+        body: ApiPost(),
         // bottomNavigationBar: BottomNav(),
       ),
     );

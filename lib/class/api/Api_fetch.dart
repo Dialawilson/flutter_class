@@ -9,6 +9,7 @@ class MyApi extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: PostList(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
